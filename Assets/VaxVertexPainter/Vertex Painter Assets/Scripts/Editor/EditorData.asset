@@ -17,7 +17,7 @@ MonoBehaviour:
   eraseMode: 0
   brushMode: 1
   bucketMode: 0
-  paintColor: {r: 1, g: 0, b: 0, a: 1}
+  paintColor: {r: 0, g: 1, b: 0, a: 1}
   eraseColor: {r: 0, g: 0, b: 0, a: 0}
   brushSize: 1
   brushStrenght: 1

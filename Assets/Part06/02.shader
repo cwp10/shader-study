@@ -19,7 +19,7 @@
 		void surf (Input IN, inout SurfaceOutputStandard o) {
 			//fixed4 c = tex2D (_MainTex, IN.uv_MainTex + _Time.y);
 			//fixed4 c = tex2D (_MainTex, float2(IN.uv_MainTex.x + _Time.y, IN.uv_MainTex.y));
-			fixed4 c = tex2D (_MainTex, float2(IN.uv_MainTex.x, IN.uv_MainTex.y  + _Time.y * _FlowSpeed));
+			fixed4 c = tex2D (_MainTex, float2(IN.uv_MainTex.x, IN.uv_MainTex.y  + _Time.g * _FlowSpeed));
 			o.Emission = c.rgb;
 			o.Alpha = c.a;
 		}
